@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*Estilização das tags de cabeçalho do documento html*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.cabecalho-esquerda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #38A269;
+}
+
+.cabecalho-direita{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #38A269;
+}
+
+/*Tratando a cor padrão do link e espacamento dos itens da lista de menu e adicionando um hover ao menu*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #90D1AE;
+}
+
+li{
+    padding-left: 15px;
+}
+
+/*Estilização da primeira sessão do documento*/
+
+.primeira-sessao{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #38A269;
+    align-items: center;
+    height: 500px;
+}
+
+.primeira-sessao-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 8%;
+}
+
+.paragrafo-primeira-sessao-esquerda{
+    font-size: 15px;
+}
+
+.titulo1-primeira-sessao-esquerda{
+    font-size: 50px;
+}
+
+.botao-primeira-sessao-esquerda{
+    width: 60%;
+    background-color: white;
+    color: #38A269;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.botao-primeira-sessao-esquerda:hover{
+    border: 3px solid white;
+    background-color: #90D1AE;
+    color: white;
+}
+
+.primeira-sessao-direita{
+    margin-right: 8%;
+    display: flex;
+    height: 500px;
+}
+
+.cao-primeira-sessao{
+    height: 550px;
+}
+
+.segunda-sessao{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-segunda-sessao{
+    text-align: center;
+    color: #38A269;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.cards-segunda-sessao-quadro{
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    column-gap: 50px;
+}
+
+img.cards{
+    width: 100px;
+    height: 100px;
+}
+.cards-segunda-sessao{
+    border: 3px solid #38A269;
+    border-radius: 10px;
+    text-align: center;
+    color: #38A269;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 30px;
+}   
+
+
+/*Esse hover vai dar o efeito das cores e usará o transforme para dar zoom a imagem quando o ponteiro do mouse passar sobre ela*/
+.cards-segunda-sessao:hover{
+    color: white;
+    background-color: #90D1AE;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+
