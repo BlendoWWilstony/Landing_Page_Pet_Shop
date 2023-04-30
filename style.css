@@ -8,7 +8,7 @@
 
 
 
-/*Estilização das tags de cabeçalho do documento html*/
+/*Estilização do cabeçalho do documento html*/
 
 header{
     display: flex;
@@ -46,8 +46,6 @@ a{
 
 a:hover{
     color: #90D1AE;
-    transform: scale(1.3);
-    transition: 2.s;
 }
 
 li{
@@ -110,7 +108,7 @@ li{
 }
 
 .cao-primeira-sessao{
-    height: 40vw;
+    height: 110%;
 }
 
 .cao-primeira-sessao:hover{
@@ -242,7 +240,7 @@ img.terceira-sessao-direita{
     margin-top: 6vw;
 }
 
-/*Estilização do rodapé da página principal*/
+/*Estilização do rodapé de todas as páginas*/
 
 .rodape-parte-1{
     display: flex;
@@ -288,3 +286,63 @@ img.terceira-sessao-direita{
     font-size: 20px;
     font-weight: bold;
 }
+
+/*Estilização do documentos Ondes Estamos*/
+
+.primeira-sessao-onde-estamos{
+    padding-top: 6vw;
+    background-color: #38A269; 
+}
+
+
+.titulo1-primeira-sessao-esquerda-onde-estamos{
+    font-size: 35px;
+    color: white;
+    margin: auto 15%;
+    padding: 5px;
+}
+
+.mapa-onde-estamos{
+    margin: auto;
+    width: 80%;
+    height: 45%;
+}
+
+.mapa-onde-estamos-mapa{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.box-onde-estamos{
+    position: fixed;
+    top: 17%;
+    left: 60%;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 300px;
+    height: 340px;
+    justify-content: space-around;
+    border: 10px solid #38A269;
+    color: #38A269;
+}
+
+img.paragrafos-onde-estamos{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0px 10px 0px 20px;
+}
+
+.titulo-paragrafos-onde-estamos{
+    text-align: center;
+    margin: 10px;
+}
+
+.paragrafos-onde-estamos{
+    display: flex;
+    justify-content: left;
+    padding: 6px;
+    align-items: center;
+}
+
