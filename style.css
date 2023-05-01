@@ -15,7 +15,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 6vw;
     z-index: 100;
     background-color: white;
@@ -26,6 +26,7 @@ header{
     flex-direction: row;
     align-items: center;
     color: #38A269;
+    padding: 10px;
 }
 
 .cabecalho-direita{
@@ -346,3 +347,57 @@ img.paragrafos-onde-estamos{
     align-items: center;
 }
 
+
+/*Estilização do documento Quem Somos*/
+
+.main-sobre-nos{
+    background-color:  #38A269;
+    padding-top: 6vw;
+    color: #ffff;
+}
+
+.h1-sobre-nos{
+    padding: 10px;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.primeira-sessao-quem-somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.p-sobre-nos{
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.primeira-sessao-quem-somos-imagem{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 350px;
+    margin-top: 15px;
+    box-shadow: -10px 15px #ffff;
+    border-radius: 10px;
+}
+
+.terceira-sessao-quem-somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+img.terceira-sessao-quem-somos{
+    box-shadow: -20px 20px #ffff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.terceira-sessao-quem-somos-2{
+    font-size: 20px;
+    text-align: right;
+}
